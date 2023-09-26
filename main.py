@@ -14,13 +14,16 @@ lite — урон от 2 до 5 очков;
 mid — урон от 15 до 25 очков;
 hard — урон от 30 до 40 очков.
 ВПЕРЁД К ПОБЕДЕ!!!
+артем педор
 '''
+
 
 def main():
     print(INTRO)
     replay = True
     while replay:
         replay = run_game()
+
 
 if __name__ == '__main__':
     main()
